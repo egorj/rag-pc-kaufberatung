@@ -1,0 +1,49 @@
+Produkttitel: HomeOffice Basic 3000
+Preis: 499 €
+Zielgruppe: Normale User
+Beschreibung: Der HomeOffice Basic 3000 ist perfekt für tägliches Surfen, Videotelefonie und Office‑Anwendungen. Ausgestattet mit einem Intel Core i3‑12100, 8 GB RAM und einer 256 GB NVMe‑SSD bietet er schnelle Systemstarts und flüssiges Multitasking. Ein leiser Gehäuselüfter sorgt für angenehme Arbeitsgeräusche, während integrierte Stereo‑Lautsprecher für klare Audio‑ und Videokonferenzen sorgen. Ideal für private Nutzer und Büroarbeitsplätze, die Wert auf Zuverlässigkeit und ein attraktives Preis‑Leistungs‑Verhältnis legen.
+
+Produkttitel: StudentFlex 450
+Preis: 599 €
+Zielgruppe: Studierende
+Beschreibung: Der StudentFlex 450 kombiniert kompaktes Design mit solider Leistung: AMD Ryzen 5 5500G, 16 GB RAM und 512 GB SSD. Damit laufen Office‑Pakete, Recherchen im Web und Multimedia‑Streams ohne Ruckler. Dank WLAN 6 und Bluetooth 5.2 ist die Verbindung ins Netz und zu Peripheriegeräten immer stabil. Das leise Gehäuse passt in jedes WG‑Zimmer und macht den StudentFlex 450 zum idealen Begleiter für Hausarbeiten, Vorlesungen und Freizeit.
+
+Produkttitel: Family MediaCenter X1
+Preis: 449 €
+Zielgruppe: Familie
+Beschreibung: Das MediaCenter X1 bringt Unterhaltung in dein Wohnzimmer: Intel Pentium Gold G6400, 8 GB RAM, 1 TB HDD plus 128 GB SSD. Streaming, Fotos, Musikbibliotheken und einfache Spiele laufen problemlos. Vier USB‑Ports, HDMI‑Ausgang und integrierter Kartenleser machen den Anschluss von TV, Festplatten und Controllern kinderleicht. Robust und wartungsarm – ideal für Familien, die einen günstigen, vielseitigen Rechner fürs Wohnzimmer suchen.
+
+Produkttitel: Gamer Start GTX 1650
+Preis: 799 €
+Zielgruppe: Gamer (Einsteiger)
+Beschreibung: Mit der GeForce GTX 1650, einem Intel Core i5‑11400F und 16 GB RAM hast du beim Einstieg in die Welt der PC‑Games eine exzellente Basis. Full‑HD‑Gaming bei mittleren bis hohen Einstellungen? Kein Problem. Die 512 GB SSD sorgt für kurze Ladezeiten, während das Gehäuse mit freiem Luftstrom und RGB‑Beleuchtung für eine coole Optik sorgt. Perfekt für Casual‑Gamer, die solide Performance zum schmalen Preis suchen.
+
+Produkttitel: Gamer Pro RTX 3060 Ti
+Preis: 1599 €
+Zielgruppe: Gamer (Fortgeschrittene)
+Beschreibung: Der Gamer Pro RTX 3060 Ti ist für High‑Performance‑Zocker gemacht: AMD Ryzen 7 5800X, NVIDIA GeForce RTX 3060 Ti, 32 GB RAM und 1 TB NVMe‑SSD. Damit erreichst du in 1440p‑Auflösung flüssige 100+ FPS in aktuellen Titeln. Ray‑Tracing, DLSS und Hard‑Sync‑Support für VR‑Headsets runden das Paket ab. Hochwertige Wakü‑Kühlung sorgt für niedrige Temperaturen und geringe Geräuschentwicklung – optimal für lange Gaming‑Sessions.
+
+Produkttitel: VideoEdit Studio 4K
+Preis: 2499 €
+Zielgruppe: Videoschnitt
+Beschreibung: Das VideoEdit Studio 4K meistert Schnitt, Color Grading und Effekte in 4K-Auflösung: Intel Core i9‑11900K, NVIDIA RTX 3070, 64 GB RAM und 2 TB NVMe‑SSD. Hardware‑Encoding und –Decoding beschleunigen Exportprozesse in Adobe Premiere Pro und DaVinci Resolve drastisch. Das Gehäuse bietet neben optimalem Airflow auch Platz für zusätzliche Festplatten. Ein Must‑have für ambitionierte Videoproduzenten und YouTuber.
+
+Produkttitel: ContentCreator Pro XL
+Preis: 3999 €
+Zielgruppe: Streaming & Multicam-Editing
+Beschreibung: Speziell für Content Creator: AMD Ryzen Threadripper 3960X, NVIDIA RTX 3080, 128 GB RAM, 4 TB NVMe‑SSD plus 4 TB HDD. Nahtloses Streaming, Multicam‑Editing und Echtzeit‑Effekte sind kein Problem. Integrierte Thunderbolt‑4‑Ports und USB 3.2 Gen 2 ermöglichen blitzschnelle Datenübertragung. Solide Kühlung und ein leiser Lüfter garantieren, dass du dich voll auf die Kreativarbeit konzentrieren kannst.
+
+Produkttitel: DesignMaster 2D/3D
+Preis: 2999 €
+Zielgruppe: Grafik & 3D‑Modelling
+Beschreibung: Der DesignMaster 2D/3D richtet sich an Designer und 3D‑Artists: Intel Xeon W‑2245, NVIDIA Quadro RTX 4000, 64 GB ECC‑RAM und 1 TB NVMe‑SSD. Zertifizierte Treiber sorgen in Adobe Illustrator, Photoshop, AutoCAD und Blender für maximale Stabilität. Das vibrationsgedämpfte Gehäuse und optimierter Airflow garantieren Flüsterbetrieb – perfekt für ruhiges Arbeiten in kreativen Studios.
+
+Produkttitel: GrafikPro Ultra
+Preis: 1899 €
+Zielgruppe: Druckvorstufe & Layout
+Beschreibung: Optimiert für Druckvorstufe und Layout: AMD Ryzen 9 5900X, NVIDIA RTX 2060, 32 GB RAM und 2 TB SSD. Schnelle Verarbeitung von hochauflösenden InDesign‑Dokumenten, Photoshop‑Composites und Illustrator‑Assets. Kalibrierbarer Monitoranschluss über DisplayPort, zwei M.2‑Slots für schnellen Speicherzugriff und redundante Netzteile für unterbrechungsfreie Produktion. Ein zuverlässiges System für Agenturen und Studios.
+
+Produkttitel: MiniFlex Silent
+Preis: 699 €
+Zielgruppe: Normale User & Büro
+Beschreibung: Kompakt und flüsterleise: Intel Core i5‑11400T, 16 GB RAM, 512 GB SSD im Mini‑ITX‑Format. Ideal für enge Arbeitsplätze und schicke Office‑Umgebungen. Lüfterlose Kühlung reduziert Betriebsgeräusche auf unter 20 dB. Integriertes WLAN 6, Bluetooth 5.1 und USB‑C mit Power Delivery ermöglichen flexible Arbeitsplatzgestaltung. Der MiniFlex Silent ist der perfekte Desktop‑Begleiter für Business‑Anwender und Home‑Offices.
