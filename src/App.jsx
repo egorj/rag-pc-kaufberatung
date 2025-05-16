@@ -1,12 +1,14 @@
 import { useEffect } from 'react';
-import { initializeVectorStore } from './data preprocessing/langchain.js';
+import { initializeVectorStore } from './data_preprocessing/langchain.js';
+
+import './App.css';
 
 function App() {
 
   // Initialisiere die Supabase Vektor-Datenbank
-  useEffect(() => {
+  /*useEffect(() => {
     initializeVectorStore();
-  }, []);
+  }, []);*/
 
   return (
     <div className="App">
