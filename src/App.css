@@ -1,0 +1,16 @@
+h1 {
+    display: block;
+    margin: 4rem auto 0 auto;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.chat-wrapper {
+    position: relative;
+    height: 80%;
+    width: 80%;
+    margin: 4rem auto;
+}

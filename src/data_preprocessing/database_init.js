@@ -38,8 +38,9 @@ export async function initializeVectorStore() {
         if (error) {
             console.log("Beim Löschen der Daten in Tabelle 'documents' ist ein Fehler aufgetreten!");
             throw error;
+        } else {
+            console.log("Tabelle 'documents' erfolgreich geleert");
         }
-        console.log("Tabelle 'documents' erfolgreich geleert");
 
         // OpenAI-Embeddings erstellen und in Supabase speichern
         const openAIApiKey = import.meta.env.VITE_OPENAI_API_KEY;
