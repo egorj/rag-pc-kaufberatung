@@ -104,6 +104,4 @@ $$;
 - `metadata`: Zusatzinfos (optional, z. B. Kategorie oder Zielgruppe)  
 - `similarity`: Ähnlichkeitswert (1 = sehr ähnlich, 0 = unähnlich)
 
----
-
 📌 **Hinweis**: Die Funktion nutzt `pgvector` und den `<=>` Operator zur Berechnung der Kosinus-Ähnlichkeit.
