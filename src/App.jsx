@@ -6,13 +6,19 @@ import './App.css';
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
 
+/**
+ * Stellt das Chat-Interface für den KI-Kaufberater dar
+ * - Lädt initial die Vektor-Datenbank (optional)
+ * - Verwaltet Chat-Nachrichten und Typing-Status
+ * - Sendet User-Eingaben inkl. dem vorherigen Chatverlauf an die processMessageToOpenAI-Funktion und zeigt Antworten an
+ */
 function App() {
-
-  // Initialisiere die Supabase Vektor-Datenbank
+  // Optional: Vektor-Datenbank beim ersten Mount initialisieren
   /*useEffect(() => {
     initializeVectorStore();
   }, []);*/
 
+  // Nachrichten-State: Enthält alle Chat-Nachrichten mit Text, Sender und Richtung
   const [messages, setMessages] = useState([
     {
       message: "Hallo! Ich bin dein KI-Kaufberater für PCs. Wie kann ich dir helfen?",
@@ -20,10 +26,17 @@ function App() {
       direction: "incoming"
     }
   ]);
+  // Typing-Indikator-State: Zeigt an, ob das Modell gerade tippt
   const [isTyping, setIsTyping] = useState(false);
 
+  /**
+   * Handler, der aufgerufen wird, wenn der User eine Nachricht sendet.
+   * Fügt die User-Nachricht zum Verlauf hinzu, zeigt den Typing-Indikator,
+   * ruft die OpenAI-Verarbeitung auf und fügt dann die AI-Antwort hinzu.
+   * @param {string} userText - Der eingegebene Text des Nutzers
+   */
   async function handleSend(userText) {
-    // Füge die User-Message hinzu
+    // Füge die User-Message zum Verlauf hinzu
     const userMessage = {
       message: userText,
       sender: "user",
@@ -32,14 +45,14 @@ function App() {
     const updatedMessages = [...messages, userMessage];
     setMessages(updatedMessages);
 
-    // Zeige Typing-Indikator
+    // Typing-Indikator aktivieren
     setIsTyping(true);
 
     try {
-      // Hole die AI-Antwort
+      // Verarbeite die Nachricht und hole AI-Antwort
       const aiText = await processMessageToOpenAI(updatedMessages);
 
-      // Füge die AI-Message hinzu
+      // Füge die AI-Antwort zum Verlauf hinzu
       const aiMessage = {
         message: aiText,
         sender: "ChatGPT",
@@ -53,7 +66,7 @@ function App() {
         { message: "Entschuldigung, da ist ein Fehler aufgetreten.", sender: "ChatGPT" }
       ]);
     } finally {
-      // Typing-Indikator wieder aus
+      // Typing-Indikator deaktivieren
       setIsTyping(false);
     }
   }

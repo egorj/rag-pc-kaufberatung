@@ -3,12 +3,12 @@ import { SupabaseVectorStore } from "@langchain/community/vectorstores/supabase"
 import { OpenAIEmbeddings } from "@langchain/openai";
 import { createClient } from "@supabase/supabase-js";
 
-/**
- * Initialisiert die RAG-Pipeline:
- * 1. Lädt die Produktbeschreibungen
- * 2. Zerlegt den Text in Chunks
- * 3. Leert die Tabelle 'documents' in der DB bevor neue Daten reingeladen werden
- * 4. Speichert die Embeddings in Supabase
+/*
+ * Initialisiert die Vektor-Datenbank mit folgenden Schritten:
+ * 1. Lädt Produktbeschreibungs-Text aus 'public/data/pc-produktbeschreibungen.txt'.
+ * 2. Zerlegt den Text in überlappende Chunks (Größe: 500, Overlap: 50).
+ * 3. Löscht bestehende Einträge in der Supabase-Tabelle 'documents'.
+ * 4. Erzeugt Embeddings via OpenAI und speichert sie in Supabase.
  */
 export async function initializeVectorStore() {
     try {
@@ -22,7 +22,7 @@ export async function initializeVectorStore() {
             chunkOverlap: 50,
         });
 
-        // Erzeuge Dokumente (Chunks)
+        // Erzeuge Dokumente (Text in Chunks aufteilen für besseres Retrieval)
         const documents = await splitter.createDocuments([text]);
 
         // Supabase-Client initialisieren
@@ -36,10 +36,10 @@ export async function initializeVectorStore() {
             .delete()
             .not("id", "is", null); // löscht alle Zeilen, da jede id ungleich null ist
         if (error) {
-            console.log("Beim Löschen der Daten in Tabelle 'documents' ist ein Fehler aufgetreten!");
+            console.error("Beim Löschen der Daten in Tabelle 'documents' ist ein Fehler aufgetreten: ", error);
             throw error;
         } else {
-            console.log("Tabelle 'documents' erfolgreich geleert");
+            console.log("Tabelle 'documents' wurde erfolgreich geleert!");
         }
 
         // OpenAI-Embeddings erstellen und in Supabase speichern
